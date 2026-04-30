@@ -3,96 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Web de Informática</title>
+    <title>Medio Ambiente</title>
 
     <style>
-        body{
+        *{
             margin:0;
-            font-family: Arial, sans-serif;
-            background: #f0f4f8;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Verdana, sans-serif;
+            background:#e8f5e9;
             color:#333;
         }
 
         header{
-            background: #0077b6;
+            background:#2e7d32;
             color:white;
             text-align:center;
-            padding:40px;
+            padding:50px;
         }
 
-        nav{
-            background:#023e8a;
-            padding:15px;
-            text-align:center;
+        header h1{
+            font-size:45px;
         }
 
-        nav a{
+        .contenedor{
+            width:90%;
+            margin:auto;
+            padding:30px;
+        }
+
+        .info{
+            background:white;
+            margin:20px 0;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .info img{
+            width:100%;
+            border-radius:15px;
+            margin-top:15px;
+        }
+
+        .boton{
+            display:inline-block;
+            margin-top:15px;
+            padding:12px 25px;
+            background:#43a047;
             color:white;
             text-decoration:none;
-            margin:15px;
-            font-weight:bold;
-        }
-
-        section{
-            padding:40px;
-        }
-
-        .card{
-            background:white;
-            padding:20px;
-            margin:20px;
             border-radius:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.2);
         }
 
         footer{
-            background:#0077b6;
+            background:#1b5e20;
             color:white;
             text-align:center;
             padding:20px;
-        }
-
-        img{
-            width:100%;
-            max-width:500px;
-            border-radius:10px;
+            margin-top:30px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Bienvenidos al Mundo de la Informática</h1>
-        <p>Página creada por Carla Michael</p>
+        <h1>Cuidemos el Medio Ambiente</h1>
+        <p>Pequeñas acciones pueden cambiar el mundo</p>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Galería</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <div class="contenedor">
 
-    <section>
-        <div class="card">
-            <h2>¿Qué es la informática?</h2>
+        <div class="info">
+            <h2>¿Por qué es importante?</h2>
+
             <p>
-                La informática es la ciencia que estudia el procesamiento automático
-                de la información mediante computadoras y dispositivos electrónicos.
+                El medio ambiente nos proporciona aire, agua y recursos naturales.
+                Cuidarlo ayuda a mantener la vida en el planeta y evitar la contaminación.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-            alt="Computadora">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+            alt="Naturaleza">
+
+            <a href="#" class="boton">Leer más</a>
         </div>
 
-        <div class="card">
-            <h2>Importancia de la tecnología</h2>
-            <p>
-                La tecnología ayuda a mejorar la comunicación, la educación,
-                el trabajo y muchas actividades de la vida diaria.
-            </p>
+        <div class="info">
+            <h2>¿Cómo ayudar?</h2>
+
+            <ul>
+                <li>Reciclar basura</li>
+                <li>Ahorrar agua</li>
+                <li>Plantar árboles</li>
+                <li>No tirar basura</li>
+            </ul>
         </div>
-    </section>
+
+    </div>
 
     <footer>
-        <p>© 202
+        <p>Página creada por Carla Michael | 2026</p>
+    </footer>
+
+</body>
+</html>
